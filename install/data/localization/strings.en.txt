@@ -1,0 +1,154 @@
+
+default {	name = "FMT_TICKER"		    value = "{FMT_TICKER.{SYS_SMALL_SCREEN}}"    lifetime = VOLATILE	}
+default {	name = "FMT_TICKER.0"		value = "[font={saxmono.ttf}][color=1.0 1.0 1.0 1.0][size=20][j<][nw]"    lifetime = VOLATILE	}
+default {	name = "FMT_TICKER.1"	    value = "[font={saxmono.ttf}][color=1.0 1.0 1.0 1.0][size=30][j<][nw]"    lifetime = VOLATILE	}
+
+default {	name = "FMT_TEXT_MENU_BACK" value = "{FMT_TEXT_MENU_BACK.{SYS_SMALL_SCREEN}}"    lifetime = VOLATILE	}
+default {	name = "FMT_TEXT_MENU_BACK.0" value = "[font={cards.ttf}][color=1.0 1.0 1.0 1.0][size=60][j<]"    lifetime = VOLATILE	}
+default {	name = "FMT_TEXT_MENU_BACK.1" value = "[font={cards.ttf}][color=1.0 1.0 1.0 1.0][size=100][j<]"    lifetime = VOLATILE	}
+
+
+default {	name = "FMT_TEXT"		    value = "{FMT_TEXT.{SYS_SMALL_SCREEN}}"    lifetime = VOLATILE	}
+default {	name = "FMT_TEXT.0"		    value = "[font={cards.ttf}][color=1.0 1.0 1.0 1.0][size=30][j><]"    lifetime = VOLATILE	}
+default {	name = "FMT_TEXT.1"		    value = "[font={cards.ttf}][color=1.0 1.0 1.0 1.0][size=35][j><]"    lifetime = VOLATILE	}
+
+default {	name = "FMT_TEXT_MENU"	    value = "{FMT_TEXT_MENU.{SYS_SMALL_SCREEN}}"    lifetime = VOLATILE	}
+default {	name = "FMT_TEXT_MENU.0"    value = "[font={cards.ttf}][color=1.0 1.0 1.0 1.0][size=35][j><]"    lifetime = VOLATILE	}
+default {	name = "FMT_TEXT_MENU.1"	value = "[font={cards.ttf}][color=1.0 1.0 1.0 1.0][size=45][j><]"    lifetime = VOLATILE	}
+
+default {	name = "FMT_TEXT_SMALL"	    value = "{FMT_TEXT_SMALL.{SYS_SMALL_SCREEN}}"    lifetime = VOLATILE    }
+default {	name = "FMT_TEXT_SMALL.0"   value = "[font={cards.ttf}][color=1.0 1.0 1.0 1.0][size=15][j><][kern=-0.01]"    lifetime = VOLATILE    }
+default {	name = "FMT_TEXT_SMALL.1"	value = "[font={cards.ttf}][color=1.0 1.0 1.0 1.0][size=25][j><][kern=-0.01]"    lifetime = VOLATILE    }
+
+default {	name = "FMT_TEXT_SMALL_RED" value = "{FMT_TEXT_SMALL_RED.{SYS_SMALL_SCREEN}}"    lifetime = VOLATILE    }
+default {	name = "FMT_TEXT_SMALL_RED.0" value = "[font={cards.ttf}][color=1.0 0.0 0.0 1.0][size=15][j><]"    lifetime = VOLATILE    }
+default {	name = "FMT_TEXT_SMALL_RED.1" value = "[font={cards.ttf}][color=1.0 0.0 0.0 1.0][size=25][j><]"    lifetime = VOLATILE    }
+
+default {	name = "FMT_BUTTON"		    value = "{FMT_BUTTON.{SYS_SMALL_SCREEN}}"    lifetime = VOLATILE	}
+default {	name = "FMT_BUTTON.0"		    value = "[font={cards.ttf}][color=1.0 1.0 1.0 1.0][size=25][j><]"    lifetime = VOLATILE	}
+default {	name = "FMT_BUTTON.1"		    value = "[font={cards.ttf}][color=1.0 1.0 1.0 1.0][size=35][j><]"    lifetime = VOLATILE	}
+
+default {	name = "FMT_MESSAGE"	    value = "[font={cards.ttf}][color=1.0 1.0 1.0 1.0][size=25][j><]"    lifetime = VOLATILE	}
+
+default {	name = "FMT_SCORE_FORMATTING"   value = "{FMT_SCORE_FORMATTING.{SYS_SMALL_SCREEN}}"    lifetime = VOLATILE	}
+default {	name = "FMT_SCORE_FORMATTING.0"   value = "[font={cards.ttf}][color=1.0 1.0 1.0 1.0][size=20][j><]"    lifetime = VOLATILE	}
+default {	name = "FMT_SCORE_FORMATTING.1"   value = "[font={cards.ttf}][color=1.0 1.0 1.0 1.0][size=30][j><]"    lifetime = VOLATILE	}
+
+
+default {	name = "FMT_LARGE"   value = "{FMT_LARGE.{SYS_SMALL_SCREEN}}"    lifetime = VOLATILE	}
+default {	name = "FMT_LARGE.0"   value = "[font={cards.ttf}][color=1.0 1.0 1.0 1.0][size=20][outlinecolor=0.0 0.0 0.0 1.0][outlinesize=2.0][j><]"    lifetime = VOLATILE	}
+default {	name = "FMT_LARGE.1"   value = "[font={cards.ttf}][color=1.0 1.0 1.0 1.0][size=25][outlinecolor=0.0 0.0 0.0 1.0][outlinesize=2.0][j><]"    lifetime = VOLATILE	}
+
+default {	name = "FMT_EXTRA_LARGE"    value = "{FMT_EXTRA_LARGE.{SYS_SMALL_SCREEN}}"    lifetime = VOLATILE	}
+default {	name = "FMT_EXTRA_LARGE.0"    value = "[font={cards.ttf}][color=1.0 1.0 1.0 1.0][size=100][outlinecolor=0.0 0.0 0.0 1.0][outlinesize=2.0][j><]"    lifetime = VOLATILE	}
+default {	name = "FMT_EXTRA_LARGE.1"    value = "[font={cards.ttf}][color=1.0 1.0 1.0 1.0][size=80][outlinecolor=0.0 0.0 0.0 1.0][outlinesize=2.0][j><]"    lifetime = VOLATILE	}
+
+
+default {	name = "FMT_STORE_TITLE"    value = "{FMT_STORE_TITLE.{SYS_SMALL_SCREEN}}"    lifetime = VOLATILE    }
+default {	name = "FMT_STORE_TITLE.0"    value = "[font={cards.ttf}][color=1.0 1.0 1.0 1.0][size=35][j<]"    lifetime = VOLATILE    }
+default {	name = "FMT_STORE_TITLE.1"    value = "[font={cards.ttf}][color=1.0 1.0 1.0 1.0][size=35][j<]"    lifetime = VOLATILE    }
+
+default {	name = "FMT_STORE_DESCRP"   value = "{FMT_STORE_DESCRP.{SYS_SMALL_SCREEN}}"    lifetime = VOLATILE    }
+default {	name = "FMT_STORE_DESCRP.0"   value = "[font={saxmono.ttf}][color=1.0 1.0 1.0 1.0][size=25][j<]"    lifetime = VOLATILE    }
+default {	name = "FMT_STORE_DESCRP.1"   value = "[font={saxmono.ttf}][color=1.0 1.0 1.0 1.0][size=25][j<]"    lifetime = VOLATILE    }
+
+default {	name = "FMT_STORE_PRICE"    value = "{FMT_STORE_PRICE.{SYS_SMALL_SCREEN}}"    lifetime = VOLATILE    }
+default {	name = "FMT_STORE_PRICE.0"    value = "[font={cards.ttf}][color=1.0 1.0 1.0 1.0][size=15][j><]"    lifetime = VOLATILE    }
+default {	name = "FMT_STORE_PRICE.1"    value = "[font={cards.ttf}][color=1.0 1.0 1.0 1.0][size=30][j><]"    lifetime = VOLATILE    }
+
+
+
+
+
+default {	name = "TXT_STORE_RESTORE"    value = "{FMT_BUTTON}Restore Purchases"    lifetime = VOLATILE    }
+
+
+default {	name = "DIAMOND"            value = "[U=9830]"				lifetime = VOLATILE	}
+default {	name = "CLUB"               value = "[U=9827]"				lifetime = VOLATILE	}
+default {	name = "HEART"              value = "[U=9829]"				lifetime = VOLATILE	}
+default {	name = "SPADE"              value = "[U=9824]"				lifetime = VOLATILE	}
+
+default {   name = "TEST"  value = "{FMT_BUTTON}Test {DIAMOND}{CLUB}{HEART}{SPADE}" lifetime = VOLATILE	}
+
+default {   name = "BID5"  value = "{FMT_BUTTON}5" lifetime = VOLATILE	}
+default {   name = "BID6"  value = "{FMT_BUTTON}6" lifetime = VOLATILE	}
+default {   name = "BID7"  value = "{FMT_BUTTON}7" lifetime = VOLATILE	}
+default {   name = "BID8"  value = "{FMT_BUTTON}8" lifetime = VOLATILE	}
+default {   name = "BID9"  value = "{FMT_BUTTON}9" lifetime = VOLATILE	}
+default {   name = "BID10"  value = "{FMT_BUTTON}10" lifetime = VOLATILE	}
+default {   name = "BID11"  value = "{FMT_BUTTON}11" lifetime = VOLATILE	}
+default {   name = "BID12"  value = "{FMT_BUTTON}12" lifetime = VOLATILE	}
+default {   name = "NO"  value = "{FMT_BUTTON}No" lifetime = VOLATILE	}
+default {   name = "PASS"  value = "{FMT_BUTTON}Pass" lifetime = VOLATILE	}
+default {   name = "BID"  value = "{FMT_BUTTON}Bid" lifetime = VOLATILE	}
+default {   name = "SET"  value = "{FMT_BUTTON}Set" lifetime = VOLATILE	}
+default {   name = "GO"  value = "{FMT_BUTTON}Go" lifetime = VOLATILE	}
+default {   name = "DISMISS"  value = "{FMT_BUTTON}Dismiss" lifetime = VOLATILE	}
+default {   name = "STORE"  value = "{FMT_BUTTON}Store" lifetime = VOLATILE	}
+
+default {   name = "TXT_PLACE_BID"  value = "{FMT_TEXT}Place your bid:" lifetime = VOLATILE	}
+default {   name = "TXT_CHOOSE_TRUMP"  value = "{FMT_TEXT}Choose trump:" lifetime = VOLATILE	}
+
+default {   name = "TXT_CHOOSE_MIN_BID"  value = "{FMT_TEXT}Choose minimum bid:" lifetime = VOLATILE	}
+default {   name = "TXT_NO_TRUMP_BIDOUT"  value = "{FMT_TEXT}[j>]No Trump bid-out:" lifetime = VOLATILE	}
+default {   name = "TXT_PASS_CARDS"  value = "{FMT_TEXT}[j>]Pass cards:" lifetime = VOLATILE	}
+default {   name = "TXT_GAME_OVER_52"  value = "{FMT_TEXT}[j>]Game over at -52:" lifetime = VOLATILE	}
+default {   name = "TXT_STEAL_5_IS_WIN"  value = "{FMT_TEXT}[j>]Steal 5 is win:" lifetime = VOLATILE	}
+
+default {   name = "TXT_PAUSE"  value = "{FMT_TEXT}Paused" lifetime = VOLATILE	}
+default {   name = "TXT_ENTER_HIGH_SCORE"  value = "{FMT_TEXT}Submit high score" lifetime = VOLATILE	}
+
+default {	name = "TXT_APP_STORE_ERROR"    value = "{TXT_APP_STORE_ERROR.{SYS_SMALL_SCREEN}}"    lifetime = VOLATILE    }
+default {   name = "TXT_APP_STORE_ERROR.0"  value = "{FMT_TEXT}[size=25]The App Store is inaccessible at this time." lifetime = VOLATILE	}
+default {   name = "TXT_APP_STORE_ERROR.1"  value = "{FMT_TEXT}The App Store is inaccessible at this time." lifetime = VOLATILE	}
+
+default {	name = "TXT_APP_GET_FULL"    value = "{TXT_APP_GET_FULL.{SYS_SMALL_SCREEN}}"    lifetime = VOLATILE    }
+default {   name = "TXT_APP_GET_FULL.0"  value = "{FMT_TEXT}[size=25]Upgrade to the full version to remove ads and enable a bunch of extra features." lifetime = VOLATILE	}
+default {   name = "TXT_APP_GET_FULL.1"  value = "{FMT_TEXT}Upgrade to the full version to remove ads and enable a bunch of extra features." lifetime = VOLATILE	}
+
+default {   name = "TXT_DIAMOND"  value = "{FMT_TEXT}{DIAMOND}" lifetime = VOLATILE	}
+default {   name = "TXT_CLUB"  value = "{FMT_TEXT}{CLUB}" lifetime = VOLATILE	}
+default {   name = "TXT_HEART"  value = "{FMT_TEXT}{HEART}" lifetime = VOLATILE	}
+default {   name = "TXT_SPADE"  value = "{FMT_TEXT}{SPADE}" lifetime = VOLATILE	}
+
+default {   name = "TXT_US"  value = "{FMT_TEXT_SMALL}Us" lifetime = VOLATILE	}
+default {   name = "TXT_THEM"  value = "{FMT_TEXT_SMALL}Them" lifetime = VOLATILE	}
+default {   name = "TXT_SCORE"  value = "{FMT_TEXT_SMALL}Score: {APP_USER_SCORE_WINS} wins/{APP_USER_SCORE_LOSSES} losses" lifetime = VOLATILE	}
+
+default {   name = "TXT_PLAY_AGAIN"  value = "{FMT_BUTTON}Again" lifetime = VOLATILE	}
+default {   name = "TXT_RESUME"  value = "{FMT_BUTTON}Resume Game" lifetime = VOLATILE	}
+default {   name = "TXT_QUIT"  value = "{FMT_BUTTON}Quit" lifetime = VOLATILE	}
+
+default {   name = "TXT_SOUND_ON"  value = "{FMT_BUTTON}Sound: On" lifetime = VOLATILE	}
+default {   name = "TXT_SOUND_OFF"  value = "{FMT_BUTTON}Sound: Off" lifetime = VOLATILE	}
+
+default {   name = "TXT_52"  value = "{FMT_BUTTON}52" lifetime = VOLATILE	}
+default {   name = "TXT_62"  value = "{FMT_BUTTON}62" lifetime = VOLATILE	}
+default {   name = "TXT_ON"  value = "{FMT_BUTTON}ON" lifetime = VOLATILE	}
+default {   name = "TXT_OFF"  value = "{FMT_BUTTON}OFF" lifetime = VOLATILE	}
+
+default {   name = "TXT_SUBMIT"  value = "{FMT_BUTTON}Submit" lifetime = VOLATILE	}
+default {   name = "TXT_SKIP"  value = "{FMT_BUTTON}Skip" lifetime = VOLATILE	}
+
+
+default {   name = "TXT_WIN"  value = "{FMT_EXTRA_LARGE}You Win" lifetime = VOLATILE	}
+default {   name = "TXT_LOSE"  value = "{FMT_EXTRA_LARGE}You Lose" lifetime = VOLATILE	}
+default {   name = "TXT_TIE"  value = "{FMT_EXTRA_LARGE}Tie!" lifetime = VOLATILE	}
+
+
+default {   name = "TITLE_PLAY"  value = "{FMT_TEXT_MENU}Play" lifetime = VOLATILE	}
+default {   name = "TITLE_HIGH_SCORES"  value = "{FMT_TEXT_MENU}High Scores" lifetime = VOLATILE	}
+default {   name = "TITLE_HIGH_SCORES_TITLE"  value = "{FMT_TEXT_MENU}High Scores" lifetime = VOLATILE	}
+default {   name = "TITLE_STORE"  value = "{FMT_TEXT_MENU}Store" lifetime = VOLATILE	}
+default {   name = "TITLE_INSTRUCTIONS"  value = "{FMT_TEXT_MENU}Instructions" lifetime = VOLATILE	}
+
+
+default {   name = "TITLE_BACK"  value = "{FMT_TEXT_MENU_BACK}[U=8678]" lifetime = VOLATILE	}
+default {   name = "TXT_END_OF_GAME_SCORE"  value = "{FMT_LARGE}Score: {APP_USER_SCORE_WINS} wins/{APP_USER_SCORE_LOSSES} losses" lifetime = VOLATILE	}
+
+#if "{SYS_PLATFORM_IOS}"
+default {   name = "TXT_TWITTER_MSG"  value = "I'm addicted to \"Kaiser: The Card Game\" on the app store: http://bit.ly/1kK7fXm" lifetime = VOLATILE	}
+default {   name = "TXT_FACEBOOK_MSG"  value = "I'm addicted to \"Kaiser: The Card Game\" on the app store: http://bit.ly/1kK7fXm" lifetime = VOLATILE	}
+#endif
+
+

@@ -1,0 +1,66 @@
+
+shader {
+
+	StandardUniform = UNIFORM_MODELVIEW "uModelView"
+	StandardUniform = UNIFORM_PROJECTION "uProjection"
+
+	StandardUniform = UNIFORM_TEX0 "uTex0"
+
+	StandardAttrib = ATTRIB_POSITION "aPosition"
+	StandardAttrib = ATTRIB_TEXCOORD0 "aTexcoord"    
+	StandardAttrib = ATTRIB_COLOR "aColor"    
+
+	shaders {
+	    FragmentShaderBlock {
+	        Implementation "GLES2,GLSL" {
+	            Shader = "
+                    #if defined(GL_ES)
+                    precision highp float;
+                    #else
+                    #define lowp
+                    #define mediump
+                    #define highp
+                    #endif
+
+				    uniform sampler2D uTex0;
+
+                    varying vec4 vColor;
+                    varying vec2 vTexcoord;
+
+                    void main() {
+					    vec4 c = texture2D(uTex0, vTexcoord);
+                        gl_FragColor = vColor * c;
+                    }
+                "
+            }
+        }
+	    
+	    VertexShaderBlock {
+	        Implementation "GLES2,GLSL" { 
+	            Shader = "
+	                attribute vec3 aPosition;
+	                attribute vec2 aTexcoord;
+	                attribute vec4 aColor;
+            
+                    uniform mat4 uModelView;
+                    uniform mat4 uProjection;
+                    uniform mat4 uTexMatrix0;
+                        
+                    varying vec4 vColor;
+                    varying vec2 vTexcoord;
+
+                    void main() {
+                        vColor = aColor;
+                        //vTexcoord = vec2(uTexMatrix0 * vec4(aTexcoord,0.0,1.0));
+                        vTexcoord = aTexcoord;
+                        
+                        vec3 position = vec3(uModelView * vec4(aPosition,1.0));
+                        gl_Position = uProjection * vec4(position,1.0);
+                    }
+                "
+            }
+        }
+        
+	}
+
+}

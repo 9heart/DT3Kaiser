@@ -1,0 +1,1245 @@
+1381
+60
+Archive {
+  obj_type=KaiserWorld
+  obj {
+    BaseClass {
+      unique_id=300524
+    }
+    PlugNode {
+      _name=KaiserWorld
+      num_plugs=0
+      num_events=0
+    }
+    World {
+      node_count=28
+      ref=300523
+      ref=300522
+      ref=300526
+      ref=300521
+      ref=300527
+      ref=300529
+      ref=300531
+      ref=300533
+      ref=300534
+      ref=300535
+      ref=300536
+      ref=300537
+      ref=300538
+      ref=300539
+      ref=300540
+      ref=300541
+      ref=300542
+      ref=300543
+      ref=300544
+      ref=300545
+      ref=300546
+      ref=300519
+      ref=300518
+      ref=300517
+      ref=307161
+      ref=310231
+      ref=316050
+      ref=328687
+      group_count=0
+      _default_camera=CameraObject
+      ref=0
+    }
+    KaiserWorld {
+    }
+  }
+  obj_type=CameraObject
+  obj {
+    BaseClass {
+      unique_id=300523
+    }
+    PlugNode {
+      _name=CameraObject
+      num_plugs=1
+      PlugConnection {
+        src_node_id=328687
+        dst_node_id=300523
+        src_name=Out
+        dst_name=Translation
+      }
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=-615 -254 0
+      Node_Color=0.588235 0.588235 0.588235 1
+    }
+    ObjectBase {
+      num_components=9
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+    }
+    PlaceableObject {
+      Pickable_In_Editor=1
+      Translation=0 0 12.3704
+      Radius=1
+      Orientation=1 0 0 0 1 0 0 0 1
+      Scale=1 1 1
+      Velocity=0 0 0
+      Angular_Velocity=0 0 0
+    }
+    CameraObject {
+      _perspective=1
+      _perspective_fill_width=0
+      _left=-1
+      _right=1
+      _top=1
+      _bottom=-1
+      _near=-100
+      _far=100
+      _post_projection=1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
+      Far_Plane=10000
+      Near_Plane=1
+      Angle=60
+      Aspect_Ratio_Mul=1
+    }
+  }
+  obj_type=PlaceableObject
+  obj {
+    BaseClass {
+      unique_id=300522
+    }
+    PlugNode {
+      _name=PlaceableObject
+      num_plugs=0
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=-376 -251 0
+      Node_Color=0.588235 0.588235 0.588235 1
+    }
+    ObjectBase {
+      num_components=9
+      ref=300525
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+    }
+    PlaceableObject {
+      Pickable_In_Editor=1
+      Translation=0 0 -0.02
+      Radius=1
+      Orientation=1 0 0 0 1 0 0 0 1
+      Scale=17 17 17
+      Velocity=0 0 0
+      Angular_Velocity=0 0 0
+    }
+  }
+  obj_type=KaiserMainMenu
+  obj {
+    BaseClass {
+      unique_id=300526
+    }
+    PlugNode {
+      _name=KaiserMainMenu
+      num_plugs=0
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=-39 -249.5 0
+      Node_Color=0.588235 0.588235 0.588235 1
+    }
+    ObjectBase {
+      num_components=9
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+    }
+    PlaceableObject {
+      Pickable_In_Editor=1
+      Translation=0 0 0
+      Radius=1
+      Orientation=1 0 0 0 1 0 0 0 1
+      Scale=1 1 1
+      Velocity=0 0 0
+      Angular_Velocity=0 0 0
+    }
+    GUIController {
+    }
+    KaiserMainMenu {
+    }
+  }
+  obj_type=PlaceableObject
+  obj {
+    BaseClass {
+      unique_id=300521
+    }
+    PlugNode {
+      _name=Heart
+      num_plugs=3
+      PlugConnection {
+        src_node_id=300534
+        dst_node_id=300521
+        src_name=Out
+        dst_name=Scale
+      }
+      PlugConnection {
+        src_node_id=300535
+        dst_node_id=300521
+        src_name=Out
+        dst_name=Orientation
+      }
+      PlugConnection {
+        src_node_id=300533
+        dst_node_id=300521
+        src_name=Out
+        dst_name=Translation
+      }
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=1168 -208 0
+      Node_Color=0.588235 0.588235 0.588235 1
+    }
+    ObjectBase {
+      num_components=9
+      ref=300520
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+    }
+    PlaceableObject {
+      Pickable_In_Editor=1
+      Translation=0.458221 2.59353 -0.01
+      Radius=1
+      Orientation=1 0 0 0 1 0 0 0 1
+      Scale=0 0 0
+      Velocity=0 0 0
+      Angular_Velocity=0 0 0
+    }
+  }
+  obj_type=PlaceableObject
+  obj {
+    BaseClass {
+      unique_id=300527
+    }
+    PlugNode {
+      _name=Title
+      num_plugs=3
+      PlugConnection {
+        src_node_id=300537
+        dst_node_id=300527
+        src_name=Out
+        dst_name=Scale
+      }
+      PlugConnection {
+        src_node_id=300538
+        dst_node_id=300527
+        src_name=Out
+        dst_name=Orientation
+      }
+      PlugConnection {
+        src_node_id=300536
+        dst_node_id=300527
+        src_name=Out
+        dst_name=Translation
+      }
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=1165 86 0
+      Node_Color=0.588235 0.588235 0.588235 1
+    }
+    ObjectBase {
+      num_components=9
+      ref=300528
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+    }
+    PlaceableObject {
+      Pickable_In_Editor=1
+      Translation=20 2.50621 0
+      Radius=1
+      Orientation=1 0 0 0 1 0 0 0 1
+      Scale=5 5 5
+      Velocity=0 0 0
+      Angular_Velocity=0 0 0
+    }
+  }
+  obj_type=PlaceableObject
+  obj {
+    BaseClass {
+      unique_id=300529
+    }
+    PlugNode {
+      _name=Title5
+      num_plugs=3
+      PlugConnection {
+        src_node_id=300541
+        dst_node_id=300529
+        src_name=Out
+        dst_name=Scale
+      }
+      PlugConnection {
+        src_node_id=300540
+        dst_node_id=300529
+        src_name=Out
+        dst_name=Orientation
+      }
+      PlugConnection {
+        src_node_id=300539
+        dst_node_id=300529
+        src_name=Out
+        dst_name=Translation
+      }
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=1164 371 0
+      Node_Color=0.588235 0.588235 0.588235 1
+    }
+    ObjectBase {
+      num_components=9
+      ref=300530
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+    }
+    PlaceableObject {
+      Pickable_In_Editor=1
+      Translation=0.51105 2.40486 -0.01
+      Radius=1
+      Orientation=1 0 0 0 1 0 0 0 1
+      Scale=2.02 2.02 2.02
+      Velocity=0 0 0
+      Angular_Velocity=0 0 0
+    }
+  }
+  obj_type=PlaceableObject
+  obj {
+    BaseClass {
+      unique_id=300531
+    }
+    PlugNode {
+      _name=Hat
+      num_plugs=3
+      PlugConnection {
+        src_node_id=300544
+        dst_node_id=300531
+        src_name=Out
+        dst_name=Scale
+      }
+      PlugConnection {
+        src_node_id=300543
+        dst_node_id=300531
+        src_name=Out
+        dst_name=Orientation
+      }
+      PlugConnection {
+        src_node_id=300542
+        dst_node_id=300531
+        src_name=Out
+        dst_name=Translation
+      }
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=1162 665 0
+      Node_Color=0.588235 0.588235 0.588235 1
+    }
+    ObjectBase {
+      num_components=9
+      ref=300532
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+    }
+    PlaceableObject {
+      Pickable_In_Editor=1
+      Translation=-4.47439 15 -0.01
+      Radius=1
+      Orientation=1 0 0 0 1 0 0 0 1
+      Scale=0.7 0.7 0.7
+      Velocity=0 0 0
+      Angular_Velocity=0 0 0
+    }
+  }
+  obj_type=ScriptingKeyframesVector3
+  obj {
+    BaseClass {
+      unique_id=300533
+    }
+    PlugNode {
+      _name=KeyVector3
+      num_plugs=1
+      PlugConnection {
+        src_node_id=300545
+        dst_node_id=300533
+        src_name=Time_Out
+        dst_name=t
+      }
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=968 -208 0
+      Node_Color=0.4 0.4 0.4 1
+    }
+    ScriptingBase {
+    }
+    ScriptingKeyframes {
+    }
+    ScriptingKeyframesVector3 {
+      t=0
+      _interpolated=1
+      _linear=0
+      Out=0.458221 2.59353 -0.01
+      keyCount=1
+      1
+      0.458221 2.59353 -0.01
+      0 0 0
+    }
+  }
+  obj_type=ScriptingKeyframesVector3
+  obj {
+    BaseClass {
+      unique_id=300534
+    }
+    PlugNode {
+      _name=KeyVector1
+      num_plugs=1
+      PlugConnection {
+        src_node_id=300545
+        dst_node_id=300534
+        src_name=Time_Out
+        dst_name=t
+      }
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=969 -119 0
+      Node_Color=0.4 0.4 0.4 1
+    }
+    ScriptingBase {
+    }
+    ScriptingKeyframes {
+    }
+    ScriptingKeyframesVector3 {
+      t=0
+      _interpolated=1
+      _linear=0
+      Out=0 0 0
+      keyCount=4
+      0.156106
+      0 0 0
+      0 0 0
+      0.2655
+      2.8 2.8 2.8
+      0 0 0
+      0.4155
+      2.5 2.5 2.5
+      0 0 0
+      1
+      2.5 2.5 2.5
+      0 0 0
+    }
+  }
+  obj_type=ScriptingKeyframesMatrix3
+  obj {
+    BaseClass {
+      unique_id=300535
+    }
+    PlugNode {
+      _name=KeyMatrix3
+      num_plugs=1
+      PlugConnection {
+        src_node_id=300545
+        dst_node_id=300535
+        src_name=Time_Out
+        dst_name=t
+      }
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=968 -163 0
+      Node_Color=0.4 0.4 0.4 1
+    }
+    ScriptingBase {
+    }
+    ScriptingKeyframes {
+    }
+    ScriptingKeyframesMatrix3 {
+      t=0
+      Out=1 0 0 0 1 0 0 0 1
+      keyCount=1
+      1
+      1 0 0 0
+    }
+  }
+  obj_type=ScriptingKeyframesVector3
+  obj {
+    BaseClass {
+      unique_id=300536
+    }
+    PlugNode {
+      _name=KeyVector2
+      num_plugs=1
+      PlugConnection {
+        src_node_id=300545
+        dst_node_id=300536
+        src_name=Time_Out
+        dst_name=t
+      }
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=965 86 0
+      Node_Color=0.4 0.4 0.4 1
+    }
+    ScriptingBase {
+    }
+    ScriptingKeyframes {
+    }
+    ScriptingKeyframesVector3 {
+      t=0
+      _interpolated=1
+      _linear=0
+      Out=20 2.50621 0
+      keyCount=3
+      0
+      30 2.50621 0
+      0 0 0
+      0.15
+      0 2.50621 0
+      0 0 0
+      1
+      0 2.50621 0
+      0 0 0
+    }
+  }
+  obj_type=ScriptingKeyframesVector3
+  obj {
+    BaseClass {
+      unique_id=300537
+    }
+    PlugNode {
+      _name=KeyVector4
+      num_plugs=1
+      PlugConnection {
+        src_node_id=300545
+        dst_node_id=300537
+        src_name=Time_Out
+        dst_name=t
+      }
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=970 174 0
+      Node_Color=0.4 0.4 0.4 1
+    }
+    ScriptingBase {
+    }
+    ScriptingKeyframes {
+    }
+    ScriptingKeyframesVector3 {
+      t=0
+      _interpolated=1
+      _linear=0
+      Out=5 5 5
+      keyCount=1
+      1
+      5 5 5
+      0 0 0
+    }
+  }
+  obj_type=ScriptingKeyframesMatrix3
+  obj {
+    BaseClass {
+      unique_id=300538
+    }
+    PlugNode {
+      _name=KeyMatrix1
+      num_plugs=1
+      PlugConnection {
+        src_node_id=300545
+        dst_node_id=300538
+        src_name=Time_Out
+        dst_name=t
+      }
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=966 131 0
+      Node_Color=0.4 0.4 0.4 1
+    }
+    ScriptingBase {
+    }
+    ScriptingKeyframes {
+    }
+    ScriptingKeyframesMatrix3 {
+      t=0
+      Out=1 0 0 0 1 0 0 0 1
+      keyCount=1
+      1
+      1 0 0 0
+    }
+  }
+  obj_type=ScriptingKeyframesVector3
+  obj {
+    BaseClass {
+      unique_id=300539
+    }
+    PlugNode {
+      _name=KeyVector5
+      num_plugs=1
+      PlugConnection {
+        src_node_id=300545
+        dst_node_id=300539
+        src_name=Time_Out
+        dst_name=t
+      }
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=964 371 0
+      Node_Color=0.4 0.4 0.4 1
+    }
+    ScriptingBase {
+    }
+    ScriptingKeyframes {
+    }
+    ScriptingKeyframesVector3 {
+      t=0
+      _interpolated=1
+      _linear=0
+      Out=0.51105 2.40486 -0.01
+      keyCount=1
+      1
+      0.51105 2.40486 -0.01
+      0 0 0
+    }
+  }
+  obj_type=ScriptingKeyframesMatrix3
+  obj {
+    BaseClass {
+      unique_id=300540
+    }
+    PlugNode {
+      _name=KeyMatrix2
+      num_plugs=1
+      PlugConnection {
+        src_node_id=300545
+        dst_node_id=300540
+        src_name=Time_Out
+        dst_name=t
+      }
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=967 414 0
+      Node_Color=0.4 0.4 0.4 1
+    }
+    ScriptingBase {
+    }
+    ScriptingKeyframes {
+    }
+    ScriptingKeyframesMatrix3 {
+      t=0
+      Out=1 0 0 0 1 0 0 0 1
+      keyCount=1
+      1
+      1 0 0 0
+    }
+  }
+  obj_type=ScriptingKeyframesVector3
+  obj {
+    BaseClass {
+      unique_id=300541
+    }
+    PlugNode {
+      _name=KeyVector6
+      num_plugs=1
+      PlugConnection {
+        src_node_id=300545
+        dst_node_id=300541
+        src_name=Time_Out
+        dst_name=t
+      }
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=965 460 0
+      Node_Color=0.4 0.4 0.4 1
+    }
+    ScriptingBase {
+    }
+    ScriptingKeyframes {
+    }
+    ScriptingKeyframesVector3 {
+      t=0
+      _interpolated=1
+      _linear=0
+      Out=2.02 2.02 2.02
+      keyCount=1
+      1
+      2.02 2.02 2.02
+      0 0 0
+    }
+  }
+  obj_type=ScriptingKeyframesVector3
+  obj {
+    BaseClass {
+      unique_id=300542
+    }
+    PlugNode {
+      _name=KeyVector7
+      num_plugs=1
+      PlugConnection {
+        src_node_id=300545
+        dst_node_id=300542
+        src_name=Time_Out
+        dst_name=t
+      }
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=962 665 0
+      Node_Color=0.4 0.4 0.4 1
+    }
+    ScriptingBase {
+    }
+    ScriptingKeyframes {
+    }
+    ScriptingKeyframesVector3 {
+      t=0
+      _interpolated=1
+      _linear=0
+      Out=-4.47439 15 -0.01
+      keyCount=3
+      0.704698
+      -4.47439 15 -0.01
+      0 0 0
+      0.855703
+      -4.47439 5.58006 -0.01
+      0 0 0
+      1.00334
+      -4.47439 5.58006 -0.01
+      0 0 0
+    }
+  }
+  obj_type=ScriptingKeyframesMatrix3
+  obj {
+    BaseClass {
+      unique_id=300543
+    }
+    PlugNode {
+      _name=KeyMatrix4
+      num_plugs=1
+      PlugConnection {
+        src_node_id=300545
+        dst_node_id=300543
+        src_name=Time_Out
+        dst_name=t
+      }
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=966 710 0
+      Node_Color=0.4 0.4 0.4 1
+    }
+    ScriptingBase {
+    }
+    ScriptingKeyframes {
+    }
+    ScriptingKeyframesMatrix3 {
+      t=0
+      Out=1 0 0 0 1 0 0 0 1
+      keyCount=2
+      0.855711
+      1 0 0 0
+      1
+      1 0 0 0
+    }
+  }
+  obj_type=ScriptingKeyframesVector3
+  obj {
+    BaseClass {
+      unique_id=300544
+    }
+    PlugNode {
+      _name=KeyVector8
+      num_plugs=1
+      PlugConnection {
+        src_node_id=300545
+        dst_node_id=300544
+        src_name=Time_Out
+        dst_name=t
+      }
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=966 761 0
+      Node_Color=0.4 0.4 0.4 1
+    }
+    ScriptingBase {
+    }
+    ScriptingKeyframes {
+    }
+    ScriptingKeyframesVector3 {
+      t=0
+      _interpolated=1
+      _linear=0
+      Out=0.7 0.7 0.7
+      keyCount=1
+      1
+      0.7 0.7 0.7
+      0 0 0
+    }
+  }
+  obj_type=ScriptingKeyframesRoot
+  obj {
+    BaseClass {
+      unique_id=300545
+    }
+    PlugNode {
+      _name=KeyRoot
+      num_plugs=1
+      PlugConnection {
+        src_node_id=300546
+        dst_node_id=300545
+        src_name=Time
+        dst_name=Time_In
+      }
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=720 -107.5 0
+      Node_Color=0.588235 0.588235 0.588235 1
+    }
+    ScriptingBase {
+    }
+    ScriptingKeyframesRoot {
+      Time_In=0
+      Time_Out=0
+    }
+  }
+  obj_type=ScriptingTimerRanged
+  obj {
+    BaseClass {
+      unique_id=300546
+    }
+    PlugNode {
+      _name=TimerRanged
+      num_plugs=2
+      PlugConnection {
+        src_node_id=300517
+        dst_node_id=300546
+        src_name=Out
+        dst_name=Count_Down
+      }
+      PlugConnection {
+        src_node_id=300526
+        dst_node_id=300546
+        src_name=Is_Main_Menu
+        dst_name=Count_Up
+      }
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=498 -118.5 0
+      Node_Color=0.588235 0.588235 0.588235 1
+    }
+    ScriptingBase {
+    }
+    ScriptingTimerRanged {
+      Lower_Range=0
+      Upper_Range=1
+      Speed=1
+      Count_Up=1
+      Count_Down=0
+      Time=0
+      t=0
+      Counting=0
+    }
+  }
+  obj_type=ScriptingComponentsToColor
+  obj {
+    BaseClass {
+      unique_id=300519
+    }
+    PlugNode {
+      _name=ComponentsToColor
+      num_plugs=1
+      PlugConnection {
+        src_node_id=300518
+        dst_node_id=300519
+        src_name=Out
+        dst_name=In_A
+      }
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=968 540 0
+      Node_Color=0.588235 0.588235 0.588235 1
+    }
+    ScriptingBase {
+    }
+    ScriptingComponentsToColor {
+      In_R=1
+      In_G=1
+      In_B=1
+      In_A=0
+      Out=1 1 1 0
+    }
+  }
+  obj_type=ScriptingKeyframesFloat
+  obj {
+    BaseClass {
+      unique_id=300518
+    }
+    PlugNode {
+      _name=KeyFloat
+      num_plugs=1
+      PlugConnection {
+        src_node_id=300545
+        dst_node_id=300518
+        src_name=Time_Out
+        dst_name=t
+      }
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=768 540 0
+      Node_Color=0.4 0.4 0.4 1
+    }
+    ScriptingBase {
+    }
+    ScriptingKeyframes {
+    }
+    ScriptingKeyframesFloat {
+      t=0
+      Out=0
+      keyCount=2
+      0.429532
+      0
+      0.651007
+      1
+    }
+  }
+  obj_type=ScriptingNOT
+  obj {
+    BaseClass {
+      unique_id=300517
+    }
+    PlugNode {
+      _name=NOT
+      num_plugs=1
+      PlugConnection {
+        src_node_id=300526
+        dst_node_id=300517
+        src_name=Is_Main_Menu
+        dst_name=In
+      }
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=294.081 -131.722 0
+      Node_Color=0.588235 0.588235 0.588235 1
+    }
+    ScriptingBase {
+    }
+    ScriptingNOT {
+      In=1
+      Out=0
+    }
+  }
+  obj_type=ScriptingScreen
+  obj {
+    BaseClass {
+      unique_id=307161
+    }
+    PlugNode {
+      _name=Screen
+      num_plugs=0
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=-1214 -150.5 0
+      Node_Color=0.588235 0.588235 0.588235 1
+    }
+    ScriptingBase {
+    }
+    ScriptingScreen {
+      Width=1080
+      Height=100
+      Aspect=10.8
+    }
+  }
+  obj_type=ScriptingDivide
+  obj {
+    BaseClass {
+      unique_id=310231
+    }
+    PlugNode {
+      _name=Divide
+      num_plugs=1
+      PlugConnection {
+        src_node_id=307161
+        dst_node_id=310231
+        src_name=Aspect
+        dst_name=In_2
+      }
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=-1036 -110.5 0
+      Node_Color=0.588235 0.588235 0.588235 1
+    }
+    ScriptingBase {
+    }
+    ScriptingDivide {
+      In_1=4
+      In_2=10.8
+      Out=0.37037
+    }
+  }
+  obj_type=ScriptingAdd
+  obj {
+    BaseClass {
+      unique_id=316050
+    }
+    PlugNode {
+      _name=Add
+      num_plugs=1
+      PlugConnection {
+        src_node_id=310231
+        dst_node_id=316050
+        src_name=Out
+        dst_name=In_2
+      }
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=-871 -186.5 0
+      Node_Color=0.588235 0.588235 0.588235 1
+    }
+    ScriptingBase {
+    }
+    ScriptingAdd {
+      In_1=12
+      In_2=0.37037
+      Out=12.3704
+    }
+  }
+  obj_type=ScriptingComponentsToVector3
+  obj {
+    BaseClass {
+      unique_id=328687
+    }
+    PlugNode {
+      _name=ComponentsToVector3
+      num_plugs=1
+      PlugConnection {
+        src_node_id=316050
+        dst_node_id=328687
+        src_name=Out
+        dst_name=In_Z
+      }
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=-862 -319.5 0
+      Node_Color=0.588235 0.588235 0.588235 1
+    }
+    ScriptingBase {
+    }
+    ScriptingComponentsToVector3 {
+      In_X=0
+      In_Y=0
+      In_Z=12.3704
+      Out=0 0 12.3704
+    }
+  }
+  obj_type=ComponentDrawImagePlane
+  obj {
+    BaseClass {
+      unique_id=300525
+    }
+    PlugNode {
+      _name=ComponentDrawImagePlane
+      num_plugs=0
+      num_events=0
+    }
+    ComponentBase {
+    }
+    ComponentDrawImagePlane {
+      Material={bg.mat}
+      Shader={default.shdr}
+      Color=1 1 1 1
+      _aspect=1
+      Flip_Horz=0
+      Flip_Vert=0
+      Tex_Mul_S=1
+      Tex_Mul_T=1
+    }
+  }
+  obj_type=ComponentDrawImagePlane
+  obj {
+    BaseClass {
+      unique_id=300520
+    }
+    PlugNode {
+      _name=ComponentDrawImagePlane
+      num_plugs=0
+      num_events=0
+    }
+    ComponentBase {
+    }
+    ComponentDrawImagePlane {
+      Material={title_heart.mat}
+      Shader={default.shdr}
+      Color=1 1 1 1
+      _aspect=1.14815
+      Flip_Horz=0
+      Flip_Vert=0
+      Tex_Mul_S=1
+      Tex_Mul_T=1
+    }
+  }
+  obj_type=ComponentDrawImagePlane
+  obj {
+    BaseClass {
+      unique_id=300528
+    }
+    PlugNode {
+      _name=ComponentDrawImagePlane
+      num_plugs=0
+      num_events=0
+    }
+    ComponentBase {
+    }
+    ComponentDrawImagePlane {
+      Material={title_name.mat}
+      Shader={default.shdr}
+      Color=1 1 1 1
+      _aspect=2.23256
+      Flip_Horz=0
+      Flip_Vert=0
+      Tex_Mul_S=1
+      Tex_Mul_T=1
+    }
+  }
+  obj_type=ComponentDrawImagePlane
+  obj {
+    BaseClass {
+      unique_id=300530
+    }
+    PlugNode {
+      _name=ComponentDrawImagePlane
+      num_plugs=1
+      PlugConnection {
+        src_node_id=300519
+        dst_node_id=300530
+        src_name=Out
+        dst_name=Color
+      }
+      num_events=0
+    }
+    ComponentBase {
+    }
+    ComponentDrawImagePlane {
+      Material={title_name_5.mat}
+      Shader={default.shdr}
+      Color=1 1 1 0
+      _aspect=0.451613
+      Flip_Horz=0
+      Flip_Vert=0
+      Tex_Mul_S=1
+      Tex_Mul_T=1
+    }
+  }
+  obj_type=ComponentDrawImagePlane
+  obj {
+    BaseClass {
+      unique_id=300532
+    }
+    PlugNode {
+      _name=ComponentDrawImagePlane
+      num_plugs=0
+      num_events=0
+    }
+    ComponentBase {
+    }
+    ComponentDrawImagePlane {
+      Material={title_hat.mat}
+      Shader={default.shdr}
+      Color=1 1 1 1
+      _aspect=0.707182
+      Flip_Horz=0
+      Flip_Vert=0
+      Tex_Mul_S=1
+      Tex_Mul_T=1
+    }
+  }
+  obj_type=end
+}

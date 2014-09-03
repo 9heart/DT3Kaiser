@@ -1,0 +1,46 @@
+
+shader {
+
+	StandardAttrib = ATTRIB_POSITION "aPosition"
+	StandardAttrib = ATTRIB_COLOR "aColor"    
+
+	shaders {
+	    FragmentShaderBlock {
+	        Implementation "GLES2,GLSL" {
+	            Shader = "
+                    #if defined(GL_ES)
+                    precision highp float;
+                    #else
+                    #define lowp
+                    #define mediump
+                    #define highp
+                    #endif
+
+                    varying vec4 vColor;
+
+                    void main() {
+                        gl_FragColor = vColor;
+                    }
+                "
+            }
+        }
+	    
+	    VertexShaderBlock {
+	        Implementation "GLES2,GLSL" { 
+	            Shader = "
+	                attribute vec3 aPosition;
+	                attribute vec4 aColor;
+                                    
+                    varying vec4 vColor;
+
+                    void main() {
+                        vColor = aColor;
+                        gl_Position = vec4(aPosition,1.0);
+                    }
+                "
+            }
+        }
+        
+	}
+
+}

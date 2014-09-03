@@ -1,0 +1,52 @@
+Material {
+
+    DepthStencil {
+        DepthEnable = FALSE
+        DepthWriteMask = FALSE
+        DepthFunc = COMPARE_LEQUAL
+        
+        StencilEnable = TRUE
+        StencilReadMask = 0xFFFFFFFF
+        StencilWriteMask = 0xFFFFFFFF
+        
+        FrontFaceStencilFailOp = STENCILOP_KEEP
+        FrontFaceStencilDepthFailOp = STENCILOP_KEEP
+        FrontFaceStencilPassOp = STENCILOP_KEEP
+        FrontFaceStencilFunc = COMPARE_LEQUAL
+        
+        BackFaceStencilFailOp = STENCILOP_KEEP
+        BackFaceStencilDepthFailOp = STENCILOP_KEEP
+        BackFaceStencilPassOp = STENCILOP_KEEP
+        BackFaceStencilFunc = COMPARE_LEQUAL
+    }
+
+    Blend {
+        BlendEnable = TRUE
+        BlendFunc = BLEND_SRC_ALPHA BLEND_ONE_MINUS_SRC_ALPHA
+        BlendAlphaFunc = BLEND_SRC_ALPHA BLEND_ONE_MINUS_SRC_ALPHA
+        ColorMask = TRUE TRUE TRUE TRUE
+    }
+
+    Rasterizer {
+        CullMode = CULL_BACK
+        DepthBias = 0
+        SlopeScaledDepthBias = 0
+        DepthBiasClamp = 0
+        ScissorEnable = FALSE
+    }
+
+    Tex 0 {
+        SubRect = 0 0 1 1
+
+        Sampler {
+            Filter = FILTER_LINEAR_LINEAR
+            AddressU = ADDRESS_CLAMP_TO_EDGE
+            AddressV = ADDRESS_CLAMP_TO_EDGE
+            AddressW = ADDRESS_CLAMP_TO_EDGE
+            MipLODBias = 0
+            MaxAnisotropy = 0
+        }
+        
+    }
+
+}

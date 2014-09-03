@@ -1,0 +1,73 @@
+///
+/// Application Configuration
+///
+
+#print "Loading config.txt..."
+
+application {
+	default {	name = "APP_TITLE"					value = "Application Title"				lifetime = VOLATILE	}
+	default {	name = "APP_VERSION"				value = "1.0.0"							lifetime = VOLATILE	}
+	default {	name = "APP_FIRST_LEVEL"			value = "{title.lvl}"					lifetime = VOLATILE	}
+	default {	name = "APP_USER_NAME"			    value = "KaiserDude"					lifetime = VOLATILE	}
+	default {	name = "APP_USER_SCORE_WINS"	    value = "0"					            lifetime = PERSISTENT_OBFUSCATED	}
+	default {	name = "APP_USER_SCORE_LOSSES"	    value = "0"					            lifetime = PERSISTENT_OBFUSCATED	}
+	default {	name = "APP_FULL_VERSION"           value = "0"                             lifetime = PERSISTENT_OBFUSCATED	}
+
+
+	default {	name = "APP_MIN_BID"                value = "7"                             lifetime = PERSISTENT	}
+	default {	name = "APP_NO_TRUMP_BIDOUT"        value = "0"                             lifetime = PERSISTENT	}
+	default {	name = "APP_PASS_CARDS"             value = "0"                             lifetime = PERSISTENT	}
+	default {	name = "APP_GAME_OVER_52"           value = "0"                             lifetime = PERSISTENT	}
+	default {	name = "APP_STEAL_5_TO_WIN"         value = "0"                             lifetime = PERSISTENT	}
+
+	default {	name = "APP_SOUND_ON"			    value = "1"					            lifetime = PERSISTENT	}
+
+	global {	name = "SYS_SCREEN_WIDTH"           value = "1024"                           lifetime = PERSISTENT	}
+	global {	name = "SYS_SCREEN_HEIGHT"          value = "768"                          lifetime = PERSISTENT	}
+
+	global {	name = "PLATFORM_RES_WIDTH"         value = "1024"                           lifetime = PERSISTENT	}
+	global {	name = "PLATFORM_RES_HEIGHT"        value = "768"                          lifetime = PERSISTENT	}
+	
+#if "{SYS_PLATFORM_IOS} | {SYS_PLATFORM_ANDROID}"
+	package {   path = "{data.pack}"    }
+#endif
+	
+    #include "{strings.en.txt}"
+}
+	
+///
+/// Engine Configuration
+///
+
+engine {
+
+    default {   name = "SYS_TRANSITION_SHADER"          value = "{transition.shdr}"	        lifetime = VOLATILE }
+    default {   name = "SYS_TRANSITION_MATERIAL"        value = "{transition.mat}"	        lifetime = VOLATILE }
+    default {   name = "SYS_MASK_SHADER"                value = "{mask.shdr}"		    	lifetime = VOLATILE }
+    default {   name = "ED_TOOL_SHADER"                 value = "{editorline.shdr}"			lifetime = VOLATILE }
+    default {   name = "ED_TOOL_MATERIAL"               value = "{editorline.mat}"			lifetime = VOLATILE }
+
+    /// Engine created classes
+    default {	name = "CLASS_APPLICATION"			    value = "ScriptApplication"			lifetime = VOLATILE	}
+    default {	name = "CLASS_SESSION"			    	value = "ScriptSession"				lifetime = VOLATILE	}
+
+
+/// Config for Mac
+#if "{SYS_PLATFORM_MACOSX} | {SYS_PLATFORM_IOS} | {SYS_PLATFORM_ANDROID}"
+
+	/// Managers
+	default {	name = "CLASS_NETWORK_DEVICE"		value = "DeviceNetworkSockets"          lifetime = VOLATILE	}
+	default {	name = "CLASS_INPUT_DEVICE"			value = "DeviceInput"					lifetime = VOLATILE	}
+	default {	name = "CLASS_MUSIC_DEVICE"			value = "DeviceMusic"					lifetime = VOLATILE	}
+	default {	name = "CLASS_AUDIO_DEVICE"			value = "DeviceAudioOpenAL"				lifetime = VOLATILE	}
+	default {	name = "CLASS_RENDERER_DEVICE"		value = "DT3OpenGL"						lifetime = VOLATILE	}
+
+	
+	/// Editor parameter	
+	default {	name = "ED_DATA_PATH"				value = "{APPDIR}/data"					lifetime = VOLATILE	}
+	default {	name = "ED_LIBRARY_PATH"			value = "{APPDIR}/data/library"			lifetime = VOLATILE	}
+	default {	name = "ED_LEVELS_PATH"				value = "{APPDIR}/data/levels"			lifetime = VOLATILE	}
+	default {	name = "ED_SPRITES_PATH"			value = "{APPDIR}/data/sprites"			lifetime = VOLATILE	}
+#endif
+
+}

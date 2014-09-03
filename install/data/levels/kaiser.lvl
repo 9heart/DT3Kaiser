@@ -1,0 +1,225 @@
+1381
+60
+Archive {
+  obj_type=KaiserWorld
+  obj {
+    BaseClass {
+      unique_id=21100
+    }
+    PlugNode {
+      _name=KaiserWorld
+      num_plugs=0
+      num_events=0
+    }
+    World {
+      node_count=55
+      ref=21309
+      ref=21047
+      ref=21046
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      group_count=0
+      _default_camera=CameraObject
+      ref=0
+    }
+    KaiserWorld {
+    }
+  }
+  obj_type=KaiserGameController
+  obj {
+    BaseClass {
+      unique_id=21309
+    }
+    PlugNode {
+      _name=KaiserGameController
+      num_plugs=0
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=5 -81.5 0
+      Node_Color=0.588235 0.588235 0.588235 1
+    }
+    ObjectBase {
+      num_components=9
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+    }
+    GameController {
+    }
+    KaiserGameController {
+    }
+  }
+  obj_type=CameraObject
+  obj {
+    BaseClass {
+      unique_id=21047
+    }
+    PlugNode {
+      _name=CameraObject
+      num_plugs=0
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=-615 -254 0
+      Node_Color=0.588235 0.588235 0.588235 1
+    }
+    ObjectBase {
+      num_components=9
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+    }
+    PlaceableObject {
+      Pickable_In_Editor=1
+      Translation=0 0 12
+      Radius=1
+      Orientation=1 0 0 0 1 0 0 0 1
+      Scale=1 1 1
+      Velocity=0 0 0
+      Angular_Velocity=0 0 0
+    }
+    CameraObject {
+      _perspective=1
+      _perspective_fill_width=0
+      _left=-1
+      _right=1
+      _top=1
+      _bottom=-1
+      _near=-100
+      _far=100
+      _post_projection=1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
+      Far_Plane=10000
+      Near_Plane=1
+      Angle=60
+      Aspect_Ratio_Mul=1
+    }
+  }
+  obj_type=KaiserObjectBackground
+  obj {
+    BaseClass {
+      unique_id=21046
+    }
+    PlugNode {
+      _name=PlaceableObject
+      num_plugs=0
+      num_events=0
+    }
+    WorldNode {
+      Node_Collapsed=0
+      Node_Position=-376 -251 0
+      Node_Color=0.588235 0.588235 0.588235 1
+    }
+    ObjectBase {
+      num_components=9
+      ref=21310
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+      ref=0
+    }
+    PlaceableObject {
+      Pickable_In_Editor=1
+      Translation=0 0 -0.01
+      Radius=1
+      Orientation=1 0 0 0 1 0 0 0 1
+      Scale=17 17 17
+      Velocity=0 0 0
+      Angular_Velocity=0 0 0
+    }
+    KaiserObjectBackground {
+    }
+  }
+  obj_type=ComponentDrawImagePlane
+  obj {
+    BaseClass {
+      unique_id=21310
+    }
+    PlugNode {
+      _name=ComponentDrawImagePlane
+      num_plugs=0
+      num_events=0
+    }
+    ComponentBase {
+    }
+    ComponentDrawImagePlane {
+      Material={bg.mat}
+      Shader={default.shdr}
+      Color=1 1 1 1
+      _aspect=1
+      Flip_Horz=0
+      Flip_Vert=0
+      Tex_Mul_S=1
+      Tex_Mul_T=1
+    }
+  }
+  obj_type=end
+}
